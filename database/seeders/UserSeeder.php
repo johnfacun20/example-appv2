@@ -17,6 +17,7 @@ class UserSeeder extends Seeder
             'name' => "John Facun",
             'email' => 'john@gmail.com',
             'age' => 33,
+            'account_type' => 'admin',
             'password' => Hash::make('12345678'),
         ]);
     }
